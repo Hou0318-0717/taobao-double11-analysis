@@ -1,0 +1,18 @@
+ * { margin:0; padding:0; border:0; box-sizing:border-box; }
+html, body { width:100%; height:100%; background:rgb(228,228,228); overflow:hidden; }
+body { display:flex; flex-direction:column; }
+.header { background:rgb(39,39,39); height:40px; line-height:40px; color:white; flex-shrink:0; }
+.header p { margin-left:20px; }
+.content { display:flex; flex:1; overflow:hidden; }
+.nav { width:200px; flex-shrink:0; padding:12px 0 0 12px; }
+.nav ul { list-style:none; }
+.nav li { border-radius:5px; background:#fff; margin:6px 0; }
+.nav li a { display:block; padding:10px 14px; color:#333; font-size:14px; text-decoration:none; line-height:1.6; border-left:4px solid transparent; white-space:nowrap; }
+.nav li a:hover { background:#f0f0f0; border-left-color:#999; }
+.nav li.current { background:rgb(61,66,75); }
+.nav li.current a { color:#fff; border-left-color:rgb(61,66,75); }
+.container { flex:1; display:flex; flex-direction:column; padding:5px; min-width:0; }
+.title { background:rgb(61,66,75); height:36px; flex-shrink:0; color:azure; line-height:36px; padding-left:15px; border-radius:3px; }
+.show { flex:1; display:flex; flex-direction:column; min-height:0; }
+.chart-type { height:26px; flex-shrink:0; line-height:26px; border-bottom:1px solid #ccc; padding-left:15px; font-size:13px; }
+#main { background:white; width:100%; flex:1; min-height:0; }
