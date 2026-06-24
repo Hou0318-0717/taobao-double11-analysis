@@ -1,0 +1,13 @@
+# Eclipse
+.settings/
+.classpath
+.project
+build/
+
+# MySQL / Spark scripts (no longer needed after migration)
+spark_hive2mysql.py
+spark_svm.py
+
+# OS
+Thumbs.db
+.DS_Store
